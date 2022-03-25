@@ -1,0 +1,315 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* line 4, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products {
+  margin: 0;
+  padding: 0.5em;
+}
+/* line 7, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products a {
+  padding: 0.354em 0.5em;
+  border-radius: 0.354em;
+}
+/* line 11, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products table {
+  border-collapse: collapse;
+}
+/* line 14, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products td {
+  padding: 0.5em;
+  margin: 0;
+}
+/* line 19, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products tr.list_line_odd {
+  background-color: #effeef;
+}
+/* line 23, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products td.image {
+  display: none;
+}
+@media (min-width: 30em) {
+  /* line 23, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+  .products td.image {
+    display: block;
+  }
+  /* line 32, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+  .products td.image img {
+    height: 11.3em;
+  }
+}
+/* line 38, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products td.description h1 {
+  font-size: 1.4em;
+}
+/* line 44, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products td.actions ul {
+  padding: 0;
+  list-style: none;
+}
+/* line 47, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products td.actions ul li {
+  padding: 0.5em 0.5em;
+}
+/* line 54, /home/lucas/railsbook/work/depot/app/assets/stylesheets/products.scss */
+.products tfoot td {
+  padding: 0.5em 0;
+}
+/* line 1, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /home/lucas/railsbook/work/depot/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 4, /home/lucas/railsbook/work/depot/app/assets/stylesheets/store.scss */
+.store {
+  max-width: 80em;
+}
+/* line 6, /home/lucas/railsbook/work/depot/app/assets/stylesheets/store.scss */
+.store ul.catalog {
+  border-top: solid 0.250em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 11, /home/lucas/railsbook/work/depot/app/assets/stylesheets/store.scss */
+.store ul.catalog li {
+  padding: 1em;
+  margin: 0;
+  border-bottom: solid thin #ddd;
+}
+/* line 17, /home/lucas/railsbook/work/depot/app/assets/stylesheets/store.scss */
+.store ul.catalog li::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+/* line 22, /home/lucas/railsbook/work/depot/app/assets/stylesheets/store.scss */
+.store ul.catalog li img {
+  float: left;
+  padding: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0.176em 0.176em 0.354em 0px rgba(0, 0, 0, 0.75);
+}
+/* line 29, /home/lucas/railsbook/work/depot/app/assets/stylesheets/store.scss */
+.store ul.catalog li .price {
+  font-size: 1.414em;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 17, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 21, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+header.main {
+  text-align: center;
+  background: #282;
+  margin: 0;
+}
+@media (min-width: 30em) {
+  /* line 21, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+  header.main {
+    text-align: left;
+  }
+}
+/* line 28, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+header.main h1 {
+  display: none;
+}
+
+/* line 32, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+@media (min-width: 30em) {
+  /* line 32, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+  .content {
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+  }
+}
+/* line 46, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.content nav {
+  padding-bottom: 1em;
+  background: #141;
+  text-align: center;
+}
+@media (min-width: 30em) {
+  /* line 46, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+  .content nav {
+    text-align: left;
+    padding: 1em;
+  }
+}
+/* line 54, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.content nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 30em) {
+  /* line 54, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+  .content nav ul {
+    padding-right: 1em;
+  }
+}
+/* line 61, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.content nav ul li {
+  margin: 0;
+  padding: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.354em;
+}
+/* line 66, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.content nav ul li a {
+  color: #bfb;
+  text-decoration: none;
+}
+/* line 70, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.content nav ul li a:hover {
+  background: none;
+  color: white;
+}
+/* line 77, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.content main {
+  padding: 0.5em;
+}
+/* line 80, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.content li.time {
+  color: #bfb;
+}
+
+/* line 85, /home/lucas/railsbook/work/depot/app/assets/stylesheets/application.scss */
+.notice, #notice {
+  background: #ffb;
+  border-radius: 0.5em;
+  border: solid 0.177em #822;
+  color: #882;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding: 1em 1.414em;
+  text-align: center;
+}
