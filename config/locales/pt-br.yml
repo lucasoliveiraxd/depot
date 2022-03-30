@@ -1,0 +1,79 @@
+pt-br:
+
+  thanks: "Agradecemos seu pedido"
+
+  layouts:
+    application:
+      title: "A Biblioteca Pragmática"
+      home: "Início"
+      questions: "Perguntas"
+      news: "Notícias"
+      contact: "Contato"
+  
+  store:
+    index:
+      title: "Seu Catálogo Pragmático"
+      add: "Adicionar ao Carrinho"
+
+  carts:
+    cart:
+      title: "Carrinho de Compras"
+      empty: "Esvaziar Carrinho"
+      checkout: "Comprar"
+      confirmation: "Tem certeza?"
+
+  orders:
+    new:
+      legend: "Por favor insira seus dados"
+    form:
+      name: "Nome"
+      address: "Endereço"
+      email: "E-mail"
+      pay_type: "Método de pagamento"
+      pay_prompt: "Selecione um método de pagamento"
+      submit: "Realizar Pedido"
+      pay_types:
+        check: "Cheque"
+        credit_card: "Cartão de Crédito"
+        purchase_order: "Ordem de Compra"
+      check_pay_type:
+        routing_number: "# de Rota"
+        account_number: "# de Conta"
+      credit_card_pay_type:
+        cc_number: "Número"
+        expiration_date: "Expiração"
+      purchase_order_pay_type:
+        po_number: "Número"
+
+  number:
+    currency:
+      format:
+        unit: "$US"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format: "%n&nbsp;%u"
+
+  activerecord:
+    models:
+      order: "pedido"
+    attributes:
+      order:
+        address: "Endereço"
+        name: "Nome"
+        email: "E-mail"
+        pay_type: "Método de pagamento"
+
+    errors:
+      messages:
+        inclusion: "não está incluido na lista"
+        blank: "não pode estar em branco"
+    
+  errors:
+    template:
+      body: "Houve problemas com os seguintes campos:"
+      header:
+        one: "1 erro está impedindo este %{model} de ser finalizado"
+        other: "%{count} erros estão impedindo este %{model} de ser finalizado"
+
+  hello: "Olá mundo"
