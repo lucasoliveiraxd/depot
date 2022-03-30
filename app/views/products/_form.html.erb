@@ -27,6 +27,11 @@
   </div>
 
   <div class="field">
+    <%= form.label :locale %>
+    <%= form.select :locale, LANGUAGES %>
+  </div>
+
+  <div class="field">
     <%= form.label :price %>
     <%= form.text_field :price, id: :product_price %>
   </div>
