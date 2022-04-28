@@ -1,6 +1,4 @@
 class CombineItemsInCart < ActiveRecord::Migration[5.1]
-  def change
-  end
   def up
     # replace multiple items for a single product in a cart with a
     # single item
