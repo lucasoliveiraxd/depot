@@ -12,6 +12,13 @@ class Product < ApplicationRecord
     }
     validates :price, numericality: { greater_than_or_equal_to: 0.01 }
 
+    enum locales: {
+        en: 0,
+        pt_br: 1
+    }
+
+    validates :locale, inclusion: locales.keys
+
     private
 
         # ensure that there are no line items referencing this product
